@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="A calm scenic sea at sunset">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c9ad"/>
+      <stop offset="0.48" stop-color="#f3ddd0"/>
+      <stop offset="1" stop-color="#8fb4bd"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d98a4"/>
+      <stop offset="1" stop-color="#173e50"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff4cf" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#f0b878" stop-opacity=".15"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <ellipse cx="820" cy="330" rx="150" ry="150" fill="url(#sun)" filter="url(#blur)"/>
+  <circle cx="820" cy="330" r="72" fill="#fff0c8" opacity=".92"/>
+  <path d="M0 500 C170 455 270 520 430 480 S720 455 900 500 S1080 520 1200 475 L1200 900 L0 900 Z" fill="url(#water)"/>
+  <path d="M0 575 C170 530 300 600 470 558 S780 530 960 575 S1090 600 1200 555" fill="none" stroke="#d6edf0" stroke-opacity=".42" stroke-width="8"/>
+  <path d="M0 655 C180 615 315 680 500 640 S800 620 980 660 S1110 685 1200 645" fill="none" stroke="#c7e2e5" stroke-opacity=".26" stroke-width="7"/>
+  <path d="M0 755 C200 710 340 775 530 735 S850 720 1030 760 S1140 775 1200 750" fill="none" stroke="#e0eef0" stroke-opacity=".18" stroke-width="6"/>
+  <path d="M0 500 C110 470 170 475 250 500 C175 495 115 515 0 535 Z" fill="#315b65" opacity=".55"/>
+  <path d="M950 500 C1010 455 1060 465 1120 500 C1080 485 1015 492 950 520 Z" fill="#315b65" opacity=".48"/>
+  <text x="600" y="825" text-anchor="middle" fill="#eef7f6" opacity=".72" font-family="Georgia, serif" font-size="28" letter-spacing="7">A LITTLE BLUE</text>
+</svg>
